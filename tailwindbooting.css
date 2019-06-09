@@ -1,0 +1,24 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+.Toggled{ 
+transform: scale(1,1);
+}
+
+@media (min-width: 200px) {
+	html{
+		font-size:13px;
+	}
+}
+@media (min-width: 600px) {
+	html{
+		font-size:16px;
+	}
+}
+
